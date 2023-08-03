@@ -1,0 +1,5 @@
+audiomentations==0.31.0
+matplotlib==3.7.2
+librosa==0.10.0.post2
+streamlit==1.25.0
+pydub==0.25.1
