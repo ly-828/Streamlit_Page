@@ -136,11 +136,11 @@ def action(file_uploader, selected_provided_file, transformations):
         y, sr = handle_uploaded_audio_file(file_uploader)
     else:
         if selected_provided_file == "Dog":
-            y, sr = librosa.load("samples/dog.wav")
+            y, sr = librosa.load("dog.wav")
         elif selected_provided_file == "Cow":
-            y, sr = librosa.load("samples/cow.wav")
+            y, sr = librosa.load("cow.wav")
         elif selected_provided_file == "Thunder":
-            y, sr = librosa.load("samples/thunder.wav")
+            y, sr = librosa.load("thunder.wav")
 
 
 
