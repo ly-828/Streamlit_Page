@@ -162,12 +162,12 @@ def main():
   
     st.markdown("---")      
     st.markdown('**Reference audio**')
-    y, sr = librosa.load("samples/dog.wav")
+    y, sr = librosa.load("dog.wav")
     st.audio(create_audio_player(y, sr))
     
     
     st.markdown('**Testing audio**')
-    y, sr = librosa.load("samples/dog.wav")
+    y, sr = librosa.load("dog.wav")
     st.audio(create_audio_player(y, sr))
     st.markdown("---")  
 
@@ -218,7 +218,7 @@ def main():
     
     # st.markdown("---")    
     st.markdown('**Testing audio**')
-    y, sr = librosa.load("samples/dog.wav")
+    y, sr = librosa.load("dog.wav")
     st.audio(create_audio_player(y, sr))   
     cols = [1, 1]
     col1, col2 = st.columns(cols)
